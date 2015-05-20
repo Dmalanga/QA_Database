@@ -45,40 +45,40 @@ $(document).ready(function(){
 
 	//Previous Sprints
 	$("#adg_sprint_6").click(function(){
-		$("#main").load("adg_sprint_6.html");
+		$("#main").load("past_sprints/adg_sprint_6.html");
 	});
 	$("#adg_sprint_5").click(function(){
-		$("#main").load("adg_sprint_5.html");
+		$("#main").load("past_sprints/adg_sprint_5.html");
 	});
 	$("#adg_sprint_4").click(function(){
-		$("#main").load("adg_sprint_4.html");
+		$("#main").load("past_sprints/adg_sprint_4.html");
 	});
 	$("#adg_sprint_3").click(function(){
-		$("#main").load("adg_sprint_3.html");
+		$("#main").load("past_sprints/adg_sprint_3.html");
 	});
 	$("#adg_sprint_2").click(function(){
-		$("#main").load("adg_sprint_2.html");
+		$("#main").load("past_sprints/adg_sprint_2.html");
 	});
 	$("#sprint_56").click(function(){
-		$("#main").load("sprint_56.html");
+		$("#main").load("past_sprints/sprint_56.html");
 	});
 	$("#sprint_55").click(function(){
-		$("#main").load("sprint_55.html");
+		$("#main").load("past_sprints/sprint_55.html");
 	});
 	$("#sprint_54").click(function(){
-		$("#main").load("sprint_54.html");
+		$("#main").load("past_sprints/sprint_54.html");
 	});
 	$("#sprint_53").click(function(){
-		$("#main").load("sprint_53.html");
+		$("#main").load("past_sprints/sprint_53.html");
 	});
 	$("#sprint_52").click(function(){
-		$("#main").load("sprint_52.html");
+		$("#main").load("past_sprints/sprint_52.html");
 	});
 	$("#sprint_51").click(function(){
-		$("#main").load("sprint_51.html");
+		$("#main").load("past_sprints/sprint_51.html");
 	});
 	$("#sprint_50").click(function(){
-		$("#main").load("sprint_50.html");
+		$("#main").load("past_sprints/sprint_50.html");
 	});
 
 	//Pubs
