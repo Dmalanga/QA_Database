@@ -44,6 +44,30 @@ $(document).ready(function(){
 	});
 
 	//Previous Sprints
+	$("#adg_sprint_6").click(function(){
+		$("#main").load("adg_sprint_6.html");
+	});
+	$("#adg_sprint_5").click(function(){
+		$("#main").load("adg_sprint_5.html");
+	});
+	$("#adg_sprint_4").click(function(){
+		$("#main").load("adg_sprint_4.html");
+	});
+	$("#adg_sprint_3").click(function(){
+		$("#main").load("adg_sprint_3.html");
+	});
+	$("#adg_sprint_2").click(function(){
+		$("#main").load("adg_sprint_2.html");
+	});
+	$("#sprint_56").click(function(){
+		$("#main").load("sprint_56.html");
+	});
+	$("#sprint_55").click(function(){
+		$("#main").load("sprint_55.html");
+	});
+	$("#sprint_54").click(function(){
+		$("#main").load("sprint_54.html");
+	});
 	$("#sprint_53").click(function(){
 		$("#main").load("sprint_53.html");
 	});
