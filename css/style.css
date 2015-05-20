@@ -1,0 +1,304 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	background-color: #c6c6c6;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+}
+
+header{
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: block;
+	background-color: black;
+	width: 100%;
+	height: 4em;
+	/*overflow: hidden;*/
+}
+/*GM image*/
+nav img{
+	float: left;
+	overflow: hidden;
+	padding: .5em 2em;
+	line-height: 3em;
+	height: 3em;
+}
+
+#image{
+	width: 20%;
+}
+
+/*Nav Bar*/
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+	height: 4em;
+
+}
+
+#nav_links {
+	float: right;
+	/*width: 80%;*/
+}
+
+#nav_links a{
+	display: block;
+	background-color: black;
+	color: white;
+	height: 12%;
+	/*width: 13%;*/
+	text-align: center;
+	text-decoration: none;
+
+	font-size: 1em;
+	padding: 0 2em;
+	line-height: 4em;
+	float: right;
+	font-weight: 600;
+}
+
+#nav_links a:hover{
+	background-color: black;
+	color: #FF0092;
+}
+
+
+/*Previous Sprints Dropdown*/
+#prev_drop{
+	top: 4em;
+	/*right: 536px;*/
+	right: 35.7em;
+}
+
+/*Pub Dropdown*/
+#pubs_drop{
+	top: 4em;
+	/*right: 232px;*/
+	right: 15.5em;
+	padding: 0 2px;
+}
+
+/*Console Dropdown*/
+#consoles_drop{
+	top: 4em;
+	/*right: 87px;*/
+	right: 5.8em;
+}
+
+#prev_drop, #pubs_drop, #consoles_drop{
+	position: absolute;
+	display: none;
+	width: 13em;
+	height: 20em;
+	overflow: auto;
+}
+
+/*Dropdowns*/
+#prev_drop a, #pubs_drop a, #consoles_drop a{
+	display: block;
+	background-color: black;
+	color: #FF0092;
+	font-size: 1em;
+
+	line-height: 1.5em;
+	/*height:	25px;*/
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 2px solid black;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	text-align: center;
+	text-decoration: none;
+
+	cursor: pointer;
+}
+
+#prev_drop a:hover, #pubs_drop a:hover, #consoles_drop a:hover{
+	background-color: #c6c6c6;
+	color: black;
+}
+
+.active{
+	display: block;
+	z-index: 9000;
+}
+
+.inactive{
+	display: none;
+}
+
+/*/*Main Content*/
+#main{
+	width: 96%;
+	margin: 2em auto;
+	clear: both;
+	margin-top: 6em;
+/*	position: absolute;
+	top: 10%;
+	left: 0;*/
+}
+
+span{
+	font-style: italic;
+}
+
+#sprint_number, #pub_name{
+	font-size: 2.5em;
+	font-weight: 600;
+	margin-bottom: 1em;
+}
+
+.case_number, .site_name{
+	font-size: 1.25em;
+	margin: .6em 0;
+}
+
+.case_name, .test_link, .site_link{
+	display: block;
+	font-size: 1em;
+	text-decoration: none;
+	color: #333333;
+	width: 50%;
+}
+
+.case_name{
+	margin: .25em 0;
+}
+
+.test_link{
+	margin: .25em 0;
+}
+
+.case_name:hover, .test_link:hover{
+	color: #FF0092;
+}
+
+/*Footer*/
+footer{
+	background-color: black;
+	color: white;
+	width: 100%;
+	height: 3em;
+	position: fixed;
+	bottom: 0;
+}
+
+footer input{
+	margin: 1em;
+}
+
+footer p{
+	padding-left: 1em;
+}
+
+@media only screen and (max-width: 1200px){
+	#nav_links a{
+		padding: 0 1em;
+	}
+	#prev_drop{
+		top: 4em;
+		right: 402px;
+	}
+	#pubs_drop{
+		top: 4em;
+		right: 160px;
+	}
+	#consoles_drop{
+		top: 4em;
+		right: 46px;
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	header{
+		font-size: 14px;
+	}
+
+	#prev_drop{
+		top: 3.6em;
+		right: 365px;
+	}
+	#pubs_drop{
+		top: 3.6em;
+		right: 139px;
+	}
+	#consoles_drop{
+		top: 3.6em;
+		right: 35px;
+}
+
+@media only screen and (max-width: 920px){
+	#nav_links a:first-child{
+		display: none;
+	}
+	#prev_drop{
+		top: 3.6em;
+		right: 280px;
+	}
+	#pubs_drop{
+		top: 3.6em;
+		right: 52px;
+	}
+	#consoles_drop{
+		top: 3.6em;
+		right: 0px;
+	}
+}
+
+@media only screen and (max-width: 830px){
+	#nav_links a{
+		width: 10%;
+	}
+	#nav_links{
+		float: none;
+	}
+	#prev_drop{
+		top: 3.6em;
+		right: 280px;
+	}
+	#pubs_drop{
+		top: 3.6em;
+		right: 52px;
+	}
+	#consoles_drop{
+		top: 3.6em;
+		right: 0px;
+	}
+
+}
+
+@media only screen and (max-width: 600px){
+	nav img{
+		padding: .5em;
+	}
+	#image{
+		width: none;
+	}
+	#pubs_drop{
+		top: 3.6em;
+		right: 52px;
+	}
+	#consoles_drop{
+		top: 3.6em;
+		right: 0px;
+	}
+}
+
+@media only screen and (max-width: 360px){
+	#nav_links a{
+		margin-right: 2em;
+	}
+	.case_name, .test_link, .site_link{
+	width: 100%;
+	}
+}

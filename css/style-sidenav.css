@@ -1,0 +1,65 @@
+html, body{
+	height: 100%;
+}
+
+body{
+	background-color: #cccccc;
+}
+
+/*GM image*/
+header{
+
+}
+
+/*Left Side Navigation*/
+nav{
+	z-index: 9999;
+	position: fixed;
+	background-color: black;
+	width: 10%;
+	height: 100%;
+	float: left;
+	clear: both;
+}
+
+nav a{
+	display: block;
+	color: white;
+	font-size: 35px;
+	line-height: 50px;
+	height: 50px;
+	border-bottom: 2px solid white;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	text-align: center;
+	text-decoration: none;
+
+}
+
+/*Div 1 Links*/
+#div_one{
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	width: 10%;
+}
+
+#div_one a{
+	display: block;
+	color: white;
+	font-size: 20px;
+
+	line-height: 25px;
+	height:	25px;
+	border-bottom: 2px solid white;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	text-align: center;
+	text-decoration: none;
+	/*float: left;*/
+}
