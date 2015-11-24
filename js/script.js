@@ -44,6 +44,33 @@ $(document).ready(function(){
 	});
 
 	//Previous Sprints
+	$("#adg_sprint_20").click(function(){
+		$("#main").load("past_sprints/adg_sprint_20.html");
+	});
+	$("#adg_sprint_19").click(function(){
+		$("#main").load("past_sprints/adg_sprint_19.html");
+	});
+	$("#adg_sprint_18").click(function(){
+		$("#main").load("past_sprints/adg_sprint_18.html");
+	});
+	$("#adg_sprint_17").click(function(){
+		$("#main").load("past_sprints/adg_sprint_17.html");
+	});
+	$("#adg_sprint_16").click(function(){
+		$("#main").load("past_sprints/adg_sprint_16.html");
+	});
+	$("#adg_sprint_15").click(function(){
+		$("#main").load("past_sprints/adg_sprint_15.html");
+	});
+	$("#adg_sprint_14").click(function(){
+		$("#main").load("past_sprints/adg_sprint_14.html");
+	});
+	$("#adg_sprint_13").click(function(){
+		$("#main").load("past_sprints/adg_sprint_13.html");
+	});
+	$("#adg_sprint_12").click(function(){
+		$("#main").load("past_sprints/adg_sprint_12.html");
+	});
 	$("#adg_sprint_11").click(function(){
 		$("#main").load("past_sprints/adg_sprint_11.html");
 	});
@@ -94,11 +121,17 @@ $(document).ready(function(){
 	});
 
 	//Pubs
+	$("#301").click(function(){
+		$("#main").load("pubs/301_media.html");
+	});
 	$("#ami").click(function(){
 		$("#main").load("pubs/ami.html");
 	});
 	$("#answers").click(function(){
 		$("#main").load("pubs/answers.html");
+	});
+	$("#axs").click(function(){
+		$("#main").load("pubs/axs.html");
 	});
 	$("#bauer").click(function(){
 		$("#main").load("pubs/bauer.html");
@@ -115,6 +148,9 @@ $(document).ready(function(){
 	$("#cpx").click(function(){
 		$("#main").load("pubs/cpx.html");
 	});
+	$("#digital_trends").click(function(){
+		$("#main").load("pubs/digital_trends.html");
+	});
 	$("#enotes").click(function(){
 		$("#main").load("pubs/enotes.html");
 	});
@@ -123,6 +159,12 @@ $(document).ready(function(){
 	});
 	$("#fanpop").click(function(){
 		$("#main").load("pubs/fanpop.html");
+	});
+	$("#fexy").click(function(){
+		$("#main").load("pubs/fexy.html");
+	});
+	$("#force12").click(function(){
+		$("#main").load("pubs/force12.html");
 	});
 	$("#gaycities").click(function(){
 		$("#main").load("pubs/gaycities.html");
