@@ -44,6 +44,9 @@ $(document).ready(function(){
 	});
 
 	//Previous Sprints
+	$("#adg_sprint_24").click(function(){
+		$("#main").load("past_sprints/adg_sprint_24.html");
+	});
 	$("#adg_sprint_23").click(function(){
 		$("#main").load("past_sprints/adg_sprint_23.html");
 	});
