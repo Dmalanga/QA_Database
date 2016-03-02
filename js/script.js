@@ -44,6 +44,15 @@ $(document).ready(function(){
 	});
 
 	//Previous Sprints
+	$("#adg_sprint_27").click(function(){
+		$("#main").load("past_sprints/adg_sprint_27.html");
+	});
+	$("#adg_sprint_26").click(function(){
+		$("#main").load("past_sprints/adg_sprint_26.html");
+	});
+	$("#adg_sprint_25").click(function(){
+		$("#main").load("past_sprints/adg_sprint_25.html");
+	});
 	$("#adg_sprint_24").click(function(){
 		$("#main").load("past_sprints/adg_sprint_24.html");
 	});
